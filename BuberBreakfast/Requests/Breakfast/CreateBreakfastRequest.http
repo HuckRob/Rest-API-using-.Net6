@@ -1,0 +1,17 @@
+POST https://localhost:7297/breakfast
+Content-Type: application/json
+
+{
+    "name": "Cereal",
+    "description": "A bowl of cereal with milk",
+    "startDateTime": "2019-01-01T08:00:00.000Z",
+    "endDateTime": "2019-01-01T09:00:00.000Z",
+    "Savory": [
+        "Cereal",
+        "Milk"
+    ],
+    "Sweet": [
+        "Ce",
+        "M"
+    ]
+}

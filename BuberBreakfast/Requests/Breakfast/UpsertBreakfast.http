@@ -1,0 +1,19 @@
+@id = f90714e6-4737-4c65-b014-8bf114d4e81d
+
+PUT  https://localhost:7297/breakfast/{{id}}
+Content-Type: application/json
+
+{
+    "name": "Cereal_Milky",
+    "description": "A bowl of cereal with milk",
+    "startDateTime": "2019-01-01T08:00:00.000Z",
+    "endDateTime": "2019-01-01T09:00:00.000Z",
+    "Savory": [
+        "Cereal",
+        "Milk"
+    ],
+    "Sweet": [
+        "Ce",
+        "M"
+    ]
+}
